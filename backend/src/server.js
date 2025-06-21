@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 
 app.use("/api/notes", notesRoutes);
 
-if(process.env.NODE_ENV === "production") {
+if(process.env.NODE_ENV === "production" || true) {
     app.use(express.static(path.join(__dirname, "../frontend/dist")))
 
     app.get("*" , (req, res) => {
