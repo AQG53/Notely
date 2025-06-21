@@ -53,3 +53,5 @@ cd frontend
 npm install
 
 npm run dev
+
+DEMO: https://notely-production-d247.up.railway.app/
